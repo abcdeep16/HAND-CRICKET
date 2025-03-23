@@ -5,13 +5,14 @@
 using namespace std;
 
 int main() {
-    string name;
-    int round, number, randomNumber, run1 = 0, run2 = 0;
+    string name  ;
+    int round, number, randomNumber, run1 = 0, run2 = 0,age;
 
     cout << "WELCOME TO HAND CRICKET" << endl;
     cout << "ENTER YOUR NAME: ";
     getline(cin, name);
-
+    cout<<"ENTER YOUR AGE"<<endl;
+    cin>>age;
     cout << "ENTER NUMBER OF ROUNDS: ";
     cin >> round;
 
